@@ -17,4 +17,5 @@ T.K.Sengupta, V.V.S.N.Vijay, S.Bhaumik, JCP 2009
 Inverts the Matrix and finds x (of Ax=B) using Gauss Elimintaion (Code from Rosetta: https://rosettacode.org/wiki/Gaussian_elimination#Fortran)
 
 Thanks to Dr.Sainath Chamarthi for the guidance!
-Thanks to Prof.Tapan Sengupta and Dr.Aditi Sengupta for their fruitful comments.
+
+Thanks to Prof.Tapan Sengupta and Dr.Aditi Sengupta for sending the references and for helping with the matrix.
