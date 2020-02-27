@@ -1,5 +1,7 @@
 # CCD_by_MatrixInversion
-Combined Compact Difference Scheme 
+Combined Compact Difference Scheme
+
+Sixth order in the interior and thrid order at the boundaries.
 
 Proposed by:
 
