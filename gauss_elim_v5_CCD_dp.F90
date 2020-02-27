@@ -147,24 +147,24 @@ MODULE matrices
     sum_first = 0.0d0
     diff_first = 0.0d0
     
-    !DO i=1, n_grid
-    DO i=3, n_grid-3
+    DO i=1, n_grid
+    !DO i=3, n_grid-3 ! To check accuracy in the interior points
         diff_first = DABS(sol_first(i) - exact_first(i))
         sum_first = sum_first + diff_first
     END DO
-    !error_first = sum_first/DFLOAT(n_grid)
-    error_first = sum_first/DFLOAT(n_grid-6)
+    error_first = sum_first/DFLOAT(n_grid)
+    !error_first = sum_first/DFLOAT(n_grid-6) ! To check accuracy in the interior points
     
     sum_second = 0.0d0
     diff_second = 0.0d0
 
-    !DO i=1, n_grid
-    DO i=3, n_grid-3
+    DO i=1, n_grid
+    !DO i=3, n_grid-3 ! To check accuracy in the interior points
         diff_second = DABS(sol_second(i) - exact_second(i))
         sum_second = sum_first + diff_second
     END DO
-    !error_second = sum_second/DFLOAT(n_grid)
-    error_second = sum_second/DFLOAT(n_grid-6)
+    error_second = sum_second/DFLOAT(n_grid)
+    !error_second = sum_second/DFLOAT(n_grid-6) ! To check accuracy in the interior points
 
     END SUBROUTINE print_sol
 
