@@ -1,5 +1,7 @@
 # CCD_by_MatrixInversion
-Combined Compact Difference Scheme proposed by:
+Combined Compact Difference Scheme 
+
+Proposed by:
 (1) "A Family of High Order Finite Difference Schemes with Good Spectral Resolution", Krishnan Mahesh, JCP 1998
 (2) "A Three-Point Combined Compact Difference Scheme", Peter C.Chu and Chenwu Fan, JCP 1998
 
